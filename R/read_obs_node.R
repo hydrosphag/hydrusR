@@ -11,7 +11,7 @@
 #'
 #' @examples
 read.obs_node<- function(project.path, out.file = "Obs_Node.out", obs.output = NULL,
-            obs.nodes.all, ...) {
+            obs.nodes, ...) {
 
       # obs_node_out = read.table(file.path(simulation.path, "Obs_Node.out"),
       #                           header = F, sep = "", dec = ".",
